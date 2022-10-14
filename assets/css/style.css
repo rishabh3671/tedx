@@ -8,10 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body {
   background: #000;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins' !important;
 }
 
 a {
@@ -1672,4 +1675,76 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.grow:hover{
+  transition: 0.5s !important;
+  scale: 1.02;
+}
+
+#theme{
+  height: 80vh;
+  background: url('../img/theme.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 20px 0px;
+  width: 75%;
+}
+
+
+.theme-head{
+  font-size: 95px;
+  font-weight: 700;
+  color:white !important;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#themeSection{
+  display: flex;
+}
+
+.text-danger{
+  color: red !important;
+}
+
+.teamSection{
+  height: 90vh;
+}
+
+
+#themeHeader{
+  font-size: 100px;
+  padding: 0px;
+  letter-spacing: line;
+  color: white;
+  font-weight: 700;
+  opacity: 0.7;
+   writing-mode: vertical-rl;
+  /* text-orientation: upright; */
+}
+
+.bi{
+  font-size: 1.4rem;
+  margin: 5px;
+}
+
+.teamDetails{
+  padding: 10px 0px;
+}
+.teamDetails h3,p{
+  margin: 5px 0px;
+}
+
+.teamDetails h3{
+  color: white !important;
+}
+.teamDetails p{
+  background-color: red;
+  padding: 3px 10px;
+  font-size: 12px;
+  width: fit-content;
+  border-radius: 5px;
+  
 }
